@@ -12,6 +12,10 @@ body {
     background-position: top;
 }
 
+body a:hover {
+    text-decoration: underline;
+}
+
 .navbar ul li a {
     text-decoration: none;
     list-style: none;
@@ -68,6 +72,10 @@ body {
 
 .content1 .button1 button:hover {
     background-color: blue;
+}
+
+.content1 .button1 a:hover {
+    text-decoration: underline;
 }
 
 .content1 .button1 a:hover {
@@ -210,16 +218,25 @@ body {
     padding-bottom: 30px;
 }
 
+.content4 {
+    background-image: url(bgcontent4.jpg);
+    /* height: auto; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
 .content4 .jumbotron4 a img {
     margin-left: 40px;
 }
 
 .content4 .jumbotron4 .text4 {
     position: absolute;
-    top: 0;
+    /* top: 0; */
     left: 0;
-    padding-top: 1830px;
+    /* padding-top: 1830px; */
     padding-left: 150px;
+    padding-top: 200px;
 }
 
 .content4 .jumbotron4 .textcon4 .text4 h3 {
@@ -277,8 +294,10 @@ body {
     color: white;
     align-items: center;
     bottom: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 20px;
+    
 }
 
 .footer div {
@@ -309,11 +328,11 @@ body {
 }
 
 .footer .footer1 {
-    margin-top: -52px;
+    margin-top: -67px;
 }
 
 .footer .footer2 {
-    margin-top: -106px;
+    margin-top: -136px;
 }
 
 .footer .footer3 {
@@ -321,15 +340,15 @@ body {
 }
 
 .footer .footer4 {
-    margin-top: 1px;
+    margin-top: 3px;
 }
 
 .footer .footer5 {
-    margin-top: 1px;
+    margin-top: 3px;
 }
 
 .footer .footer6 {
-    margin-top:  -53px;
+    margin-top:  -70px;
 }
 
 .bottom {
